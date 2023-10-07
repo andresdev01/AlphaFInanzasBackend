@@ -33,6 +33,7 @@ export const userController = {
                 res.status(200).send('ok');
                 const usuarioCreado = user.dataValues
                 console.log(usuarioCreado)
+                return;
             }
 
         } catch (error) {
