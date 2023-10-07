@@ -15,7 +15,6 @@ const conect = await connect();
 
 app.post('/create/user', userController.crear);
 app.post('/login/user', userController.login)
-
 app.listen(port, () => {
     console.log('Escuchando en el puerto', port)
 })
