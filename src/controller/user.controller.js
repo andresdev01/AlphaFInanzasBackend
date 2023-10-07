@@ -28,7 +28,6 @@ export const userController = {
                 email: body.email,
                 password: hash
             })
-
             if (user) {
                 res.status(200).send('ok');
                 const usuarioCreado = user.dataValues
